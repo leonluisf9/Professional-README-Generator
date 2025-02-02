@@ -8,5 +8,17 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^12.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonluisf9/Professional-README-Generator.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/leonluisf9/Professional-README-Generator/issues"
+  },
+  "homepage": "https://github.com/leonluisf9/Professional-README-Generator#readme"
 }
