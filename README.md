@@ -1,5 +1,5 @@
 # Professional README Generator
-![License Badge](https://shields.io/badge/license-GPL 3.0-blue)
+![License Badge](https://shields.io/badge/license-GPL_3.0-blue)
 ## Table of Contents
 1. [Description](#description)
 2. [Installation](#installation)
