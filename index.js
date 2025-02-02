@@ -3,7 +3,7 @@ import inquirer from 'inquirer';
 import fs from 'fs';
 import { generateMarkdown } from './utils/generateMarkdown.js';
 
-const licenses = ['None', 'MIT License', 'LGPL 3.0', 'MPL 2.0', 'AGPL 3.0', 'Unlicense', 'Apache 2.0','GPL 3.0'];
+const licenses = ['None', 'MIT_License', 'LGPL_3.0', 'MPL_2.0', 'AGPL_3.0', 'Unlicense', 'Apache_2.0','GPL_3.0'];
 
 // TODO: Create an array of questions for user input
 const questions = [
