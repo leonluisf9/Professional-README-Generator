@@ -1,16 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
-  <title>Document</title>
-</head>
-<body>
-  <header class="p-5 mb-4 header bg-light">
-    <div class="container">
-      <h1 class="display-4"># Generator Professional README.md FILE</h1>
-    </div>
-  </header>
-</body>
-</html>
+# Professional README Generator 
+
+## Description 
+We've provided a flexible template to use as a starting point
+
+## Installation 
+Clone the Repo, Install NPM packages
+
+## Usage 
+Use this space to show useful examples of how a project can be used
+
+## Contributing 
+If you have a suggestion that would make this better, please fork the repo and create a pull request
+
+## Tests 
+Use this space to test resources you find helpful and would like to validate
