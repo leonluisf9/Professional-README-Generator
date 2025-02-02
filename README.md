@@ -1,5 +1,5 @@
 # Professional README Generator
-![License Badge](https://shields.io/badge/license-Apache-2.0-blue)
+![License Badge](https://shields.io/badge/license-GPL 3.0-blue)
 ## Table of Contents
 1. [Description](#description)
 2. [Installation](#installation)
@@ -20,8 +20,7 @@ Please contribute. If you have a suggestion that would make this better, please 
 ## Tests
 Use this space to test resources you find helpful and would like to validate. No tests are provided
 ## License
-Please visit http://choosealicense.com/licenses/apache-2.0 to get detailed information for this license
-
+Please visit undefined to get detailed information for this license
 ## Questions
 You can find me [HERE](https://github.com/leonlewisf) on Github
 You can email me at leonlewisf@outlook.com if you have any additional questions.

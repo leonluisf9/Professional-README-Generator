@@ -49,7 +49,7 @@ function renderLicenseSection(license) {
   // with link to license information
   if (license != "None") {
     licenseSection += "## License\n"
-    licenseSection += "Please visit " + renderLicenseLink(license) + " to get detailed information for this license\n";
+    licenseSection += "Please visit " + renderLicenseLink(license) + " to get detailed information for this license";
   }
   return licenseSection;
 }
@@ -72,30 +72,23 @@ export function generateMarkdown(data) {
       }
     }
     markdown += "\n";
-  
     // add description
     markdown += "## " + sections[0] + "\n";
     markdown += data.description + "\n";
-  
     // add installation
     markdown += "## " + sections[1] + "\n";
     markdown += data.installation + "\n";
-  
     // add usage
     markdown += "## " + sections[2] + "\n";
     markdown += data.usage + "\n";
-  
     // add contributing
     markdown += "## " + sections[3] + "\n";
     markdown += data.contributing + "\n";
-  
     // add testing
     markdown += "## " + sections[4] + "\n";
     markdown += data.tests + "\n";
-  
     // add license
     markdown += renderLicenseSection(data.license) + "\n";
-  
     // add questions
     markdown += "## " + sections[6] + "\n";
     markdown += "You can find me [HERE](https://github.com/" + data.username + ") on Github\n";
