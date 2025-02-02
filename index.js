@@ -7,12 +7,12 @@ const licenses = ['None', 'MIT License', 'LGPL-3.0', 'MPL-2.0', 'AGPL-3.0', 'Unl
 
 // TODO: Create an array of questions for user input
 const questions = [
-    {
+     {
       type: 'input',
       name: 'title',
       message: 'What is your Project Title?'
-    },
-    {
+     },
+     {
         type: 'input',
         name: 'description',
         message: 'Enter your Project Description'
@@ -42,7 +42,12 @@ const questions = [
         name: 'license',
         message: 'Enter project license:',
         choices: licenses
-    },
+      },
+      {
+        type: 'input',
+        name: 'username',
+        message: 'Enter your Github username:'
+      },
 ];
 
 // TODO: Create a function to write README file
