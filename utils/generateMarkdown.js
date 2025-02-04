@@ -11,33 +11,35 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  let htmlurl;
-
+  let htmlurl = "";
+  
+  if(license != "None") {
   // select correct license url for the selected license
   switch(license) {
-    case "MIT License":
+    case "MIT_License":
       htmlurl = "http://choosealicense.com/licenses/mit/";
       break;
-    case "LGPL-3.0":
+    case "LGPL_3.0":
       htmlurl = "http://choosealicense.com/licenses/lgpl-3.0/";
       break;
-    case "MPL-2.0":
+    case "MPL_2.0":
       htmlurl = "http://choosealicense.com/licenses/mpl-2.0/";
       break;
-    case "AGPL-3.0":
+    case "AGPL_3.0":
       htmlurl = "http://choosealicense.com/licenses/agpl-3.0/";
       break;
     case "Unlicense":
       htmlurl = "http://choosealicense.com/licenses/unlicense/";
       break;
-    case "Apache-2.0":
+    case "Apache_2.0":
       htmlurl = "http://choosealicense.com/licenses/apache-2.0";
     break;
-    case "gpl-3.0":
+    case "GPL_3.0":
       htmlurl = "http://choosealicense.com/licenses/gpl-3.0/";
     break;
   } 
   return htmlurl;
+  }
 }
   
 // TODO: Create a function that returns the license section of README
@@ -49,7 +51,7 @@ function renderLicenseSection(license) {
   // with link to license information
   if (license != "None") {
     licenseSection += "## License\n"
-    licenseSection += "Please visit " + renderLicenseLink(license) + " to get detailed information for this license";
+    licenseSection += "Please visit " + renderLicenseLink(license) + " to get information for this license";
   }
   return licenseSection;
 }
