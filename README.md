@@ -20,7 +20,7 @@ Please contribute. If you have a suggestion that would make this better, please 
 ## Tests
 Use this space to test resources you find helpful and would like to validate. No tests are provided
 ## License
-Please visit undefined to get detailed information for this license
+Please visit http://choosealicense.com/licenses/gpl-3.0/ to get information for this license
 ## Questions
 You can find me [HERE](https://github.com/leonlewisf) on Github
 You can email me at leonlewisf@outlook.com if you have any additional questions.
