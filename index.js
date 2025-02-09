@@ -34,8 +34,8 @@ const questions = [
       },
       {
         type: 'input',
-        name: 'tests',
-        message: 'Enter Tests Instructions'
+        name: 'video',
+        message: 'Enter Link to a demo video'
       },
       {
         type: 'list',
@@ -71,6 +71,3 @@ function init() {
 
 // Function call to initialize app
 init();
-
-
-
