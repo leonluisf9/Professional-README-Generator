@@ -58,7 +58,7 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 export function generateMarkdown(data) {
-    const sections = ["Description", "Installation", "Usage", "Contributing", "Tests", "License", "Questions"];
+    const sections = ["Description", "Installation", "Usage", "Contributing", "Video", "License", "Questions"];
   
     // add title
     let markdown = "# " + data.title + "\n";
@@ -88,7 +88,7 @@ export function generateMarkdown(data) {
     markdown += data.contributing + "\n";
     // add testing
     markdown += "## " + sections[4] + "\n";
-    markdown += data.tests + "\n";
+    markdown += data.video + "\n";
     // add license
     markdown += renderLicenseSection(data.license) + "\n";
     // add questions
